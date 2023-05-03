@@ -423,7 +423,7 @@ form{
     position: absolute;
     left: 0px;
     bottom: 0px;
-    background: #c6def5;
+    background: #f9fbfc;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 20px 50px 0px;
@@ -566,7 +566,7 @@ form{
   
   .container-section4 {
     padding: 144px 0px 150px 0px;
-    background-color: #c6def5;
+    background-color: #f5f5f5;
     position: relative;
     display: block;
 
@@ -579,6 +579,7 @@ form{
     width: 100%;
     height: 830px;
     background-repeat: repeat-x;
+    animation: slide 100s  linear infinite;
     animation-duration: 100s;
     animation-timing-function: linear;
     animation-name: slide;
@@ -588,54 +589,120 @@ form{
     animation-direction: normal;
     animation-iteration-count: infinite;
   }
+
+  .auto-container{
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+  }
   
   .sec-title {
-    margin-bottom: 55px;
+    margin-bottom: 50px;
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
   }
   
   .sec-title h2 {
-    font-size: 48px;
+    position: relative;
+    display: block;
+    font-family: 'Playfair Display' , serif;
+    font-size: 50px;
     line-height: 60px;
-    margin-bottom: 0;
+    font-weight: 900;
   }
   
   .sec-title p {
-    margin-bottom: 10px;
-  }
-  
-  .tour-block-one {
-    margin-bottom: 30px;
-  }
-  
-  .tour-block-one .inner-box {
-    background-color: #f9f9f9;
-    padding: 20px;
+    margin-bottom: 2px;
     position: relative;
-    z-index: 1;
+    display: block;
+    font-size: 17px;
+    line-height: 28px;
+    color:#808080;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    font-family: 'Work Sans', sans-serif;
+
   }
   
-  .tour-block-one .inner-box .image-box {
-    margin-bottom: 20px;
+  .row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+
+  }
+
+
+  .tour-block{
+    flex: 0 0 33.33333%;
+    max-width: 33.3333%;
+    position: realitive;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .tour-block-one .inner-box {
+    position: relative;
+    display: block;
+    background: #d3dcff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px 0px rgb(239, 241, 245);
+  }
+    
+  
+  .inner-box .image-box {
+    position: relative;
+    margin: 0px;
+    display: block;
+    overflow: hidden;
+
   }
   
   .tour-block-one .inner-box .image-box img {
-    border-radius: 10px;
+    border-radius: 0;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    width: 100%;
   }
   
   .tour-block-one .inner-box .image-box a {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 0px;
+    left: 0px;
     color: #fff;
-    font-size: 18px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    background-color: #000;
-    border-radius: 50%;
+    font-size: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    box-shadow: none;
+    text-decoration: none;
   }
   
+  .lower-content{
+    position: relative;
+    padding: 33px 35px 40px 40px;
+  }
+
+  .lower-content .rating span{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+
+  }
+  .lower-content .rating span i{
+    font-size: 18px;
+    color: #f3ce2bb6;
+
+  }
   .tour-block-one .inner-box .lower-content h3 {
     font-size: 22px;
     line-height: 28px;
