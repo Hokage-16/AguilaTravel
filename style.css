@@ -10,11 +10,12 @@ a{
 
 .header-one{
     display: flex;
-    background-color: rgb(99, 145, 230);
+    background-color: rgba(122, 161, 216, 0.756);
     min-height: 40px;
     max-height: 70px;
     justify-content: space-between;
     padding: 10px;
+    filter: contrast(125%) saturate(120%);
 }
 
 .header-container{
@@ -434,73 +435,121 @@ form{
 
   
   .image-box h3 {
-    font-size: 30px;
-    margin-bottom: 15px;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 13px;
+    font-weight: 700;
+    line-height: 28px;
   }
   
-  .image-box .video-btn {
+  .image-box .video-btn a:hover {
+    color: #79a3f6;
+  }
+  
+  .image-box .video-btn a {
+    position: relative;
     display: inline-block;
-    padding: 12px 24px;
-    background-color: #fff;
-    border-radius: 4px;
-    color: #4f4f4f;
+    font-size: 60px;
+    line-height: 60px;
+    color: #007bff;
+    box-shadow: none;
+    text-decoration: none;
   }
-  
-  .image-box .video-btn:hover {
-    background-color: #fbb800;
-    color: #fff;
-  }
-  
   /* Estilos para el contenido */
+
+  .content-column{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
   .content-box {
-    margin-bottom: 40px;
+    position: relative;
+    margin-left: 40px;
+
   }
   
   .content-box .sec-title {
-    margin-bottom: 30px;
+    margin-bottom:  26px;
   }
-  
   .content-box .sec-title p {
-    font-size: 16px;
+    position: relative;
+    display: block;
+    line-height: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 17px;
     color: #2c3aff;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
   }
   
   .content-box .sec-title h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
   }
   
   .content-box .text {
-    font-size: 16px;
-    line-height: 28px;
-    margin-bottom: 30px;
+    position: relative;
+    margin-bottom: 25px;
+  }
+
+  .content-box .text p{
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    color: #808080;
+    font-weight: 400;
+    margin: 0px;
+    transition: all 500ms ease;
+
   }
   
-  .content-box .list {
-    margin-bottom: 30px;
-    padding-left: 20px;
+  .content-box .lista {
+    position: relative;
+    margin-bottom: 35px;
   }
   
-  .content-box .list li {
-    font-size: 16px;
-    line-height: 28px;
-    margin-bottom: 10px;
+  .content-box .lista li {
+    padding-left: 28px;
+    position: relative;
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Work Sans', sans-serif;
+    color: #808080;
+  }
+
+  .content-box .lista li::before{
+    position: absolute;
+    content: "\e906";
+    font-family: 'icono';
+    left: 0px;
+    top: 0px;
+    color: #222222;
+
   }
   
   .content-box .btn-box {
     text-align: center;
   }
   
-  .content-box .theme-btn {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #4e51fc;
-    border-radius: 4px;
+  .content-box .btn-theme {
+    background: #007bff;
+    position: relative;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
     color: #fff;
-    transition: all 0.3s ease;
+    text-align: center;
+    padding: 17.5px 41.5px;
+    border-radius: 10px;
   }
-  
+ 
   .content-box .theme-btn:hover {
     background-color: #4f4f4f;
     color: #fff;
