@@ -564,21 +564,29 @@ form{
     margin-bottom: 60px;
   }
   
-  .tour-section {
+  .container-section4 {
+    padding: 144px 0px 150px 0px;
+    background-color: #c6def5;
     position: relative;
-    z-index: 1;
+    display: block;
+
   }
   
-  .tour-section .pattern-layer {
+  .diseño-section4 {
     position: absolute;
-    top: 0;
-    left: 0;
+    left: 0px;
+    bottom: 0px;
     width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: -1;
+    height: 830px;
+    background-repeat: repeat-x;
+    animation-duration: 100s;
+    animation-timing-function: linear;
+    animation-name: slide;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
   }
   
   .sec-title {
