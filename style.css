@@ -96,7 +96,7 @@ a{
       padding-top: 8px;
     }
 
-/*estilos de div*/
+/*estilos de la primera seccion*/
 
 
 .seccion-uno {
@@ -104,7 +104,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 160px 160px;
+    padding: 200px 160px;
 }
 
 
@@ -648,7 +648,7 @@ form{
   .tour-block-one .inner-box {
     position: relative;
     display: block;
-    background: #d3dcff;
+    background: #d5e5fb;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 15px 25px 0px rgb(239, 241, 245);
@@ -703,57 +703,87 @@ form{
     color: #f3ce2bb6;
 
   }
-  .tour-block-one .inner-box .lower-content h3 {
+  .lower-content h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    font-weight: 800;
+    font-family: sans-serif;
+    position: relative;
+    color: #000;
+    
+  }
+
+  .lower-content h3 a{
+    display: inline;
+    color: #000;
+    box-shadow: none;
+    text-decoration: none;
+  }  
+
+  .lower-content h4 {
+    display: block;
     font-size: 22px;
     line-height: 28px;
-    margin-bottom: 0;
+    font-weight: 700;
+    margin-bottom: 22px;
+    color: #2c3aff;
+
+  }
+  .lower-content h4 span{
+    font-size: 15px;
+    font-weight: 500;
+    color: #808080;
   }
   
-  .tour-block-one .inner-box .lower-content h4 {
-    font-size: 18px;
-    line-height: 22px;
-    margin-bottom: 15px;
-  }
-  
-  .tour-block-one .inner-box .lower-content h4 span {
-    font-size: 14px;
-    font-weight: 400;
-  }
-  
-  .tour-block-one .inner-box .lower-content .info {
-    margin-bottom: 0;
-  }
-  
-  .tour-block-one .inner-box .lower-content .info li {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 16px;
-    line-height: 22px;
+  .lower-content .info {
     position: relative;
-    padding-left: 20px;
+    display: block;
+    background:#eaeefc;
+    padding: 10px 10px 9px 14px;
+    border-radius: 8px;
+    margin-bottom: 22px;
+    list-style: none;
   }
-  
-  .tour-block-one .inner-box .lower-content .info li:before {
-    content: "\f017";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 22px;
-    color: #f7b733;
-    position: absolute;
-    left: 0;
-    top: 0;
+
+  .lower-content .info li{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    color: #818793;
+    font-weight: 500;
+    padding-left: 15px;
+    margin-right: 35px;
+    list-style-type: none;
+
+  }
+
+  .lower-content .info li i{
+    padding-right: 10px;
+  }
+
+  .lower-content p{
+    position: relative;
+    color: #666666;
+    font-family: sans-serif;
+    font-weight: 1200;
+    margin: 0px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
   }
   
   .tour-block-one .inner-box .lower-content .btn-box a {
     color: #fff;
     font-size: 18px;
-    background-color: #f7b733;
+    background-color: #7199fd;
     padding: 8px 30px;
     display: inline-block;
     border-radius: 4px;
     transition: all 0.3s ease;
   }
+
+
   
   .tour-block-one .inner-box .lower-content .btn-box a:hover {
     background-color: #000;
