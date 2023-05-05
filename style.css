@@ -96,7 +96,7 @@ a{
       padding-top: 8px;
     }
 
-/*estilos de div*/
+/*estilos de la primera seccion*/
 
 
 .seccion-uno {
@@ -104,7 +104,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 160px 160px;
+    padding: 200px 160px;
 }
 
 
@@ -423,7 +423,7 @@ form{
     position: absolute;
     left: 0px;
     bottom: 0px;
-    background: #c6def5;
+    background: #f9fbfc;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 20px 50px 0px;
@@ -564,124 +564,331 @@ form{
     margin-bottom: 60px;
   }
   
-  .tour-section {
+  .container-section4 {
+    padding: 144px 0px 150px 0px;
+    background-color: #f5f5f5;
     position: relative;
-    z-index: 1;
+    display: block;
+
   }
   
-  .tour-section .pattern-layer {
+  .diseño-section4 {
     position: absolute;
-    top: 0;
-    left: 0;
+    left: 0px;
+    bottom: 0px;
     width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: -1;
+    height: 830px;
+    background-repeat: repeat-x;
+    animation: slide 100s  linear infinite;
+    animation-duration: 100s;
+    animation-timing-function: linear;
+    animation-name: slide;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+  }
+
+  .auto-container{
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
   }
   
   .sec-title {
-    margin-bottom: 55px;
+    margin-bottom: 50px;
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
   }
   
   .sec-title h2 {
-    font-size: 48px;
+    position: relative;
+    display: block;
+    font-family: 'Playfair Display' , serif;
+    font-size: 50px;
     line-height: 60px;
-    margin-bottom: 0;
+    font-weight: 900;
   }
   
   .sec-title p {
-    margin-bottom: 10px;
-  }
-  
-  .tour-block-one {
-    margin-bottom: 30px;
-  }
-  
-  .tour-block-one .inner-box {
-    background-color: #f9f9f9;
-    padding: 20px;
+    margin-bottom: 2px;
     position: relative;
-    z-index: 1;
+    display: block;
+    font-size: 17px;
+    line-height: 28px;
+    color:#808080;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    font-family: 'Work Sans', sans-serif;
+
   }
   
-  .tour-block-one .inner-box .image-box {
-    margin-bottom: 20px;
+  .row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+
+  }
+
+
+  .tour-block{
+    flex: 0 0 33.33333%;
+    max-width: 33.3333%;
+    position: realitive;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .tour-block-one .inner-box {
+    position: relative;
+    display: block;
+    background: #d5e5fb;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 15px 25px 0px rgb(239, 241, 245);
+  }
+    
+  
+  .inner-box .image-box {
+    position: relative;
+    margin: 0px;
+    display: block;
+    overflow: hidden;
+
   }
   
   .tour-block-one .inner-box .image-box img {
-    border-radius: 10px;
+    border-radius: 0;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    width: 100%;
   }
   
   .tour-block-one .inner-box .image-box a {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 0px;
+    left: 0px;
     color: #fff;
-    font-size: 18px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    background-color: #000;
-    border-radius: 50%;
+    font-size: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    box-shadow: none;
+    text-decoration: none;
   }
   
-  .tour-block-one .inner-box .lower-content h3 {
+  .lower-content{
+    position: relative;
+    padding: 33px 35px 40px 40px;
+  }
+
+  .lower-content .rating span{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+
+  }
+  .lower-content .rating span i{
+    font-size: 18px;
+    color: #f3ce2bb6;
+
+  }
+  .lower-content h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    font-weight: 800;
+    font-family: sans-serif;
+    position: relative;
+    color: #000;
+    
+  }
+
+  .lower-content h3 a{
+    display: inline;
+    color: #000;
+    box-shadow: none;
+    text-decoration: none;
+  }  
+
+  .lower-content h4 {
+    display: block;
     font-size: 22px;
     line-height: 28px;
-    margin-bottom: 0;
+    font-weight: 700;
+    margin-bottom: 22px;
+    color: #2c3aff;
+
+  }
+  .lower-content h4 span{
+    font-size: 15px;
+    font-weight: 500;
+    color: #808080;
   }
   
-  .tour-block-one .inner-box .lower-content h4 {
-    font-size: 18px;
-    line-height: 22px;
-    margin-bottom: 15px;
-  }
-  
-  .tour-block-one .inner-box .lower-content h4 span {
-    font-size: 14px;
-    font-weight: 400;
-  }
-  
-  .tour-block-one .inner-box .lower-content .info {
-    margin-bottom: 0;
-  }
-  
-  .tour-block-one .inner-box .lower-content .info li {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 16px;
-    line-height: 22px;
+  .lower-content .info {
     position: relative;
-    padding-left: 20px;
+    display: block;
+    background:#eaeefc;
+    padding: 10px 10px 9px 14px;
+    border-radius: 8px;
+    margin-bottom: 22px;
+    list-style: none;
   }
-  
-  .tour-block-one .inner-box .lower-content .info li:before {
-    content: "\f017";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 22px;
-    color: #f7b733;
-    position: absolute;
-    left: 0;
-    top: 0;
+
+  .lower-content .info li{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    color: #818793;
+    font-weight: 500;
+    padding-left: 15px;
+    margin-right: 35px;
+    list-style-type: none;
+
+  }
+
+  .lower-content .info li i{
+    padding-right: 10px;
+  }
+
+  .lower-content p{
+    position: relative;
+    color: #666666;
+    font-family: sans-serif;
+    font-weight: 1200;
+    margin: 0px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
   }
   
   .tour-block-one .inner-box .lower-content .btn-box a {
     color: #fff;
     font-size: 18px;
-    background-color: #f7b733;
+    background-color: #7199fd;
     padding: 8px 30px;
     display: inline-block;
     border-radius: 4px;
     transition: all 0.3s ease;
   }
+
+
   
   .tour-block-one .inner-box .lower-content .btn-box a:hover {
     background-color: #000;
   }
 
+  /*estilos de la seccion 5 */
+
+  .seccion-cinco {
+  }
+
+  .inner-container4 {
+    background-image: url("imagenes/seccion5.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    position: relative;
+    padding: 150px 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+
+
+  }
+
+  .inner-container4 .container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+  }
+
+  .container .content_block_2 .content-box {
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    display: block;
+    background: #e5f0fad3;
+    padding: 44px 40px 41px 50px;
+    border-radius: 15px;  
+  }
+
+  .content-box h3 {
+    display: block;
+    color: #050505;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+
+  .content-box .price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .content-box .price h4 {
+    position: relative;
+    display: inline-block;
+    line-height: 28px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #ee8a32;
+    padding-right: 10px;
+    font-size: 25px;
+  }
+
+  .content-box .price del {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Work Sans', sans-serif;
+    color: #666666;
+    font-weight: 500;
+  }
+
+  .content-box p {
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    color: #666;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .content-box .theme-btn {  
+    position: relative;
+    background-color: #5fa5f0;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    margin-top: 15px;
+    padding: 13px 30px;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .content-box .theme-btn:hover {
+    background-color: transparent;
+    color: #373a42;
+    border: 2px solid #000000;
+}
 
