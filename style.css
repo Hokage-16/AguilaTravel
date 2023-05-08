@@ -1034,14 +1034,37 @@ form{
  
  .link-column {
   position: relative;
-  display: flex;
+  display:flex;
+  flex-wrap: nowrap;
   align-items: center;
-  flex: 0 0 30.3%;
-  max-width: 30.3%;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  flex: 0 0 30%;
+  max-width: 30%;
  }
+
+ .link-box{
+  position: relative;
+  background: #cee5fd;
+  padding: 40px 0px 44px 0px;
+  border-radius: 50%;
+  width: 100%;
+  text-align: center;
+ }
+
+ .link-box h3{
+  display: block;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 23px;
+  position: relative;
+  font-family: 'Work Sans', sans-serif;
+  margin: 0px;
+  padding-bottom: 20px;
+ }
+
 
 
 
