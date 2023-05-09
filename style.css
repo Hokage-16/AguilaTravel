@@ -10,7 +10,7 @@ a{
 
 .header-one{
     display: flex;
-    background-color: rgba(122, 161, 216, 0.756);
+    background-color: rgba(51, 115, 204, 0.756);
     min-height: 40px;
     max-height: 70px;
     justify-content: space-between;
@@ -1065,6 +1065,120 @@ form{
   padding-bottom: 20px;
  }
 
+ /*estilos de la seccion siete*/
+
+ .map-section{
+  position: relative;
+  padding: 144px 0px 295px 0px;
+  background: #f5f5f5;
+  display: block;
+ }
+
+ .imagen-inferior{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+ .mapa-container .sec-title{
+  text-align: center;
+  padding-bottom: 50px;
+  position: relative;
+  display: block;
+ }
+
+.map-inner{
+  position: relative;
+  max-width: 1247px;
+  width: 100%;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+ .map-inner .map-content{
+  position: relative;
+  min-height: 618px;
+ } 
+
+ .location-1{
+  position: absolute;
+  left: 185px;
+  top: 125px;
+ }
+
+ .location-2{
+  position: absolute;
+  left: 200px;
+  top: 90px;
+ }
+
+ .location-3{
+  position: absolute;
+  left: 44%;
+  top: 45px;
+ }
+
+ .location-4{
+  position: absolute;
+  left: 210px;
+  top: 270px;
+ }
+
+ .map-marker{
+  position: relative;
+  display: inline-flex;
+  width: 60px;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0;
+ }
+
+ .map-marker span {
+  position: absolute;
+  left: 0px;
+  top: -6px;
+  font-size: 24px;
+  color:#cee5fd;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+
+ }
+
+ .address-box{
+  position: absolute;
+  left: 0px;
+  top: 105px;
+  width: 350px;
+  background: #cee5fd;
+  border-radius: 0%;
+  padding: 24px 30px 31px 30px;
+  box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.2);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9;
+  transition: all 500s ease;
+
+ }
+
+ .address-box::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 10px #f2f2f2;
+ }
 
 
 
