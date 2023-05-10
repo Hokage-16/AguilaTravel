@@ -8,6 +8,10 @@ a{
     color: black;
 }
 
+h3{
+  font-family: 'Work Sans', sans-serif;
+}
+
 .header-one{
     display: flex;
     background-color: rgba(51, 115, 204, 0.756);
@@ -1349,15 +1353,207 @@ form{
 
 
   /*estilos de la seccion 11*/
-  .container-section11 .efecto.humo.negro{
-    background-image: url(https://travio.smartdemowp.com/wp-content/uploads/2021/02/shape-10.png);
+  
+  .container-section11{
+    padding-bottom: 220px;
+    position: relative;
+    padding: 144px 0px 150px 0px;
+    display: block;
+  }
+
+  .auto-container11{
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+
+  }
+
+  .row11{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    background: transparent;
+  }
+
+  .blocks{
+    flex: 0 0 30%;
+    max-width: 30%;
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: transparent;
+  }
+
+  .new-block-one{
+
+  }
+
+  .inner-box11{
+    position: relative;
+    display: block;
+
+  }
+
+  .inner-box11 .image-box11{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: #007bff;
+  }
+
+  .image-box11{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .image-box11 img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: middle;
+  }
+
+  .post-date{
+    position: absolute;
+    left: 20px;
+    top: 28px;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    background: #d1e7ec;
+    border-radius: 25px;
+    padding: 5px 20px 3px 55px;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.5);stroke-width: ;
+  }
+
+  .post-date i{
     position: absolute;
     left: 0px;
-    bottom: 0px;
-    width: 100%;
-    height: 100px;
-    background-repeat: repeat-x;
+    top: -3px;
+    background: #007bff;
+    width: 43px;
+    height: 43px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 10px 0px 20px 0px rgba(0,0,0,0.15);
   }
+
+  .lower-content11 .category a {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #808080;
+    background: #f0f1f2;
+    padding: 1px 21px;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 14px;
+    box-shadow: none;
+    text-decoration: none;
+  }
+
+  .lower-content11 h3{
+    position: relative;
+    display: block;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    margin: 0;
+  }
+
+  .lower-content11 h3 a{
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .lower-content11 h3 a:hover{
+    color: #5fa5f0;
+  }
+
+  .lower-content11 .post-info{
+    position: relative;
+    margin-bottom: 14px;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .post-info li{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    color: #666;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .post-info li a {
+    display: inline-block;
+    color: #000;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  .post-info li a:hover{
+    color: #4d9aec;
+  }
+
+  .lower-content11 p {
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    color: #666;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .lower-content11 .btn-box11 a{
+    padding: 11px 22px;
+    text-decoration: none;
+    box-shadow: none;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color: #061a3a;
+    border: 1px solid #e4e8e9;
+    text-align: center;
+    border-radius: 4px;
+
+  }
+
+  .lower-content11 .btn-box11 a:hover{
+    border: #000000;
+    background: #c3f9ff;
+  }
+
+
+
+
+  
+
+
+
 
 
 
