@@ -1549,6 +1549,232 @@ form{
 
 
 
+  /*estilos del footer*/
+
+  .footer{
+    position: relative;
+    background: #000000;
+  }
+
+  .footer-content{
+    padding-top: 130px;
+    position: relative;
+    padding: 100px 0px 110px 0px;
+  }
+
+  .footer-content .footer-fondo{
+    background-image: url(https://travio.smartdemowp.com/wp-content/uploads/2021/02/shape-4.png);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background: #919191f4;
+  }
+  .footer-container{
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: auto;
+  }
+
+  .footer-elementor{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+  }
+
+  .footer-elementor .footer-rows{
+    width: 100%;
+    display: flex;
+  }
+
+  .rows-column{
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+  .rows-column .row-container{
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+  }
+
+  .footer-widget{
+    position: relative;
+    margin-right: -15px;
+  }
+
+  .footer-logo{
+    position: relative;
+    margin-bottom: 35px;
+  }
+
+  .footer-logo a{
+    box-shadow: none;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+  }
+
+  .footer-logo a img {
+    max-width: 125px;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    display: inline-block;
+  }
+
+  .text-widget {
+    margin-bottom: 50px;
+    align-content: center;
+  }
+
+  .text-widget p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #ebebeb;
+    position: relative;
+    font-family: 'Work sans', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+  }
+
+  .social-links{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .social-links li{
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+  }
+
+  .social-links li a{
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    color: #3996ec;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.472);
+    border-radius: 50%;
+
+  }
+
+  /*estilos del segundo widget de servicios */
+
+  .margen-widget{
+    position: relative;
+    margin-left: 60px;
+  }
+
+  .widget-title{
+    position: relative;
+    display: block;
+    margin-bottom: 27px;
+  }
+  .widget-title h3{
+    font-size: 24px;
+    line-height: 32px;
+    color: #0b78deca;
+    font-weight: 600;
+  }
+
+  .widget-content .links-list{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+  }
+
+  .links-list .menu-item{
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    list-style: none;
+
+
+  }
+
+  .links-list .menu-item a{
+    position: relative;
+    display: inline-block;
+    box-shadow: none;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    color: #eee8e8;
+  }
+
+  .links-list .menu-item a:hover{
+    color: #326eaf;
+  }
+
+
+  /*estilos de la galeria de footer*/
+
+  .margen-galeria{
+    position: relative;  
+    margin-right: 38px;
+  }
+
+  .image-list{
+    position: relative;
+    margin: 0px -5px;
+
+  }
+
+  .image-list li{
+    position: relative;
+    display: inline-block;
+    margin: 0px 5px 10px 5px;
+    list-style: none;
+  }
+
+  .image-boxf{
+    margin: 0px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    background: #007bff;
+  }
+
+  .image-boxf img{
+    width: 100%;
+    border-radius: 5px;
+    height: auto;
+    max-width: 100%;
+    box-shadow: none;
+  }
+
+
+
+
+
+
+
+
+
 
   
 
