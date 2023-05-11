@@ -1265,6 +1265,126 @@ form{
   margin: 0px;
 
 }
+
+/*estilosde la seccion 9*/
+  .testimonial-section{
+    padding: 144px 0px 150px 0px;
+    position: relative;
+    display: block;
+    text-align: center;   
+  }
+
+  .textimonials{
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+
+  .owl-stages{
+    overflow: visible;
+    position: relative;
+
+  }
+
+  .owl-stage{
+    width: 1200px;
+    position: relative;
+    text-align: center;
+    display: flex;
+
+  }
+
+  .owl-item{
+    width: 370px;
+    margin-right: 30px;
+    opacity: 1;
+    position: relative;
+
+  }
+
+  .testimonial-block .inner-box9{
+    position: relative;
+    display: block;
+    background: #9ad7ffc1;
+    padding: 48px 30px 71px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.1);
+
+  }
+
+  .inner-box9 .rating-box{
+    position: relative;
+    margin-bottom: 23px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .inner-box9 .rating-box li{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 30px;
+
+
+  }
+  
+  .author-box span{
+    position: relative;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+
+  }
+
+  .author-box .thumb-box{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -47px;
+    width: 83px;
+    height: 83px;
+    background: #ffffff;
+    padding: 7px;
+    border-radius: 50%;
+    box-shadow: 0px 20px 40px 0px rgba(6,26,58,0.2);
+  }
+
+  .author-box .trumb-box img{
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+  }
+
+  .owl-dots{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    margin-left: 570px;
+  }
+
+  .owl-dots .active{
+    display: inline-block;
+
+  }
+
+  .owl-dots .active i{
+    color: #007bff;
+
+  }
+
+
+
+
+
   /*estilos de la seccion 10 */
 
   .container-10{
@@ -1730,14 +1850,21 @@ form{
 
   /*estilos de la galeria de footer*/
 
+  .widget-content{
+    display: block;
+  }
+  
+
   .margen-galeria{
     position: relative;  
     margin-right: 38px;
   }
 
-  .image-list{
+  .widget-content ul{
     position: relative;
-    margin: 0px -5px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
 
   }
 
@@ -1767,6 +1894,31 @@ form{
     box-shadow: none;
   }
 
+  /*estilos de cotactos de footer*/
+  .info-list li{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ebebeb;
+    padding-left: 30px;
+    margin-bottom: 19px;
+  }
+
+  .info-list li i{
+    position: absolute;
+    left: 0px;
+    color: #68c8f8;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+
+  .info-list li a{
+    font-size: 16px;
+    line-height: 26px;
+    color: #ebebeb;
+  }
 
 
 
