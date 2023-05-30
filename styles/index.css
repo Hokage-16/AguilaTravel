@@ -1,4 +1,8 @@
+*{
+    transition: all 0.5s ease-in-out;
+}
 body{
+   
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -16,7 +20,7 @@ h3{
 
 .header-one{
     display: flex;
-    background-color: rgba(51, 115, 204, 0.756);
+    background-color: rgb(255, 255, 255);
     min-height: 40px;
     max-height: 70px;
     justify-content: space-between;
@@ -49,12 +53,13 @@ h3{
     align-items: center;
 }
 .menu-nav a{
-    font-weight: 500;
-    padding: 30px 20px;
+    font-weight: 600;
+    padding: 40px 20px;
 }
 .menu-nav a:hover{
-    color:aliceblue;
+    color: #5285d7dc;
     font-weight: 600;
+    transition: all 0.5s ease-in-out;
 
 }
 
@@ -67,14 +72,14 @@ h3{
     height: 40px;
     width: 40px;
     border-radius: 50%;  
-    background-color: #ffffff;
+    background-color: #d3d3d3;
     justify-content: center;
     display: flex;
     align-items: center;   
 }
 
 .search-one:hover {
-    background-color: #74a7c0bc;
+    background-color: #5285d7dc;
 }
 
 .search{
@@ -82,7 +87,7 @@ h3{
     position: relative;
 }
 .button-tour {
-    background-color: #ffffff; 
+    background-color: #5285d7dc; 
     border: none; 
     color: #000000; 
     padding: 10px 20px; 
@@ -114,7 +119,10 @@ h3{
 
 
 .container-1 {
-    position: relative;
+    position: static;
+    max-width: 1200px;
+    margin: 0 auto;
+    
 }
 
 
@@ -136,72 +144,65 @@ h3{
     text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
 }
 
-.booking-form {
-    background-color: rgb(255, 254, 254,0.3);
-    border-radius: 30px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    padding: 40px 70px 30px;
+.form-inner{
     position: relative;
-    z-index: 1;
-    margin-bottom: 0;
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    padding: 20px 228px 84px 20px;
+    background: rgba(255, 255, 255, 0.322);
+    border-radius: 6px;
+
 }
 
+.form-group {
+    position: relative;
+    float: left;
+    margin: 0px;
+    width: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
 
-.booking-form input {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    color: #666;
-    width: 300px;
-    padding: 15px 25px;
-    border: none;
-    border-radius: 30px;
-    box-shadow: none;
-    background: #f0f0f0;
-    padding-right: 60px;
-}
-
-.input-date {
-    margin-top: 30px;
-}
-
-.booking-form input {
-    padding-right: 60px;
     
 }
 
-.select-box {
+.form-group input {
     position: relative;
-    overflow: hidden;
-    margin-bottom: 0;
+    max-width: 286px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #666;
+    width: 100%;
+    height: 64px;
+    padding: 0px 25px;
+    border-radius: 5px;
+    background: #f0f0f0;
+    border: none;
+
 }
 
-.select-box .nice-select {
-    border: none;
-    border-radius: 50px;
-    color: #666;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    padding: 15px 30px 15px 25px;
-    background: #f0f0f0;
-    cursor: pointer;
+.message-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    margin-left: 40px;
+    margin-right: 40px;
 }
+
+
 
 .theme-btn {
+    display: flex;
     background-color: #4d9aec; 
     border: none; 
-    color: #ffffff; 
-    padding: 10px 20px; 
+    color: #ffffff;
+    width: 206px;
+    height: 64px;
     text-align: center; 
-    text-decoration: none; 
-    display: inline-block; 
+    text-decoration: none;  
     font-size: 16px; 
-    font-weight: bold; 
-    cursor: pointer; 
     border-radius: 5px; 
+    align-items: center;
+    justify-content: center;
   }
   
   .theme-btn:hover {
@@ -210,22 +211,13 @@ h3{
 
 }
 
-.container-1{
-    padding: 0 50px;
-}
 
 li{
     list-style-type: none;
 
 }
 
-form{
-    display: flex;
-    gap: 2rem;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .seccion-uno .efecto-humo{
     background-image: url(https://travio.smartdemowp.com/wp-content/uploads/2021/01/shape-1.png);
@@ -237,6 +229,14 @@ form{
     background-repeat: repeat-x;
     animation: slide 100s linear infinite;
 }
+@keyframes slide{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 2920px 0;
+    }
+}
 
 /*stylos de la segunda seccion*/
 
@@ -245,7 +245,7 @@ form{
 
 }
 .container-2{
-    padding: 160px 0;
+    padding: 144px 0px 150px 0px;
 }
 
 .container-caracteristicas{
@@ -284,14 +284,14 @@ form{
 .row-clearfix {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+
 }
 
 .caracteristica{
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
+
 }
 
 .bloque-uno .caja-interior{
