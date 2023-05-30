@@ -15,6 +15,18 @@ h3{
   font-family: 'Work Sans', sans-serif;
 }
 
+p{
+    position: relative;
+    font-family: sans-serif;
+    color: #808080;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+    margin-top: 0px;
+}
 
 /*estilos del header*/
 
@@ -191,7 +203,7 @@ h3{
 
 
 .theme-btn {
-    display: flex;
+    display: inline-flex;
     background-color: #4d9aec; 
     border: none; 
     color: #ffffff;
@@ -263,13 +275,8 @@ li{
 }
 
 .container-titulo p {
-    position: relative;
-    display: block;
     font-size: 17px;
-    line-height: 28px;
-    color: #808080;
     font-weight: 600;
-    text-transform: uppercase;
     margin-bottom: 2px;
 }
 
@@ -283,7 +290,7 @@ li{
 
 .row-clearfix {
     display: flex;
-    flex-wrap: wrap;
+
 
 }
 
@@ -297,6 +304,7 @@ li{
 .bloque-uno .caja-interior{
     position: relative;
     display: block;
+    max-height: 336.109px;
     border-radius: 10px;
     overflow: hidden;
     background: #99d4e784;
@@ -324,12 +332,24 @@ li{
     transform: translateX(-50%);
     width: 80px;
     height: 80px;
-    line-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #fff;
-    text-align: center;
     border-radius: 50%;
     font-size: 40px;
-    box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.06);
+}
+
+
+
+.contenido-bajo h4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "Work Sans",sans-serif
 }
 /*estilos de la tercera seccion */
 .seccion-dos{

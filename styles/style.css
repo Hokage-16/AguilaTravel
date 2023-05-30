@@ -18,16 +18,7 @@
   .content-box .sec-title {
     margin-bottom:  26px;
   }
-  .content-box .sec-title p {
-    position: relative;
-    display: block;
-    line-height: 28px;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 17px;
-    color: #2c3aff;
-    margin-bottom: 2px;
-  }
+
   
   .content-box .sec-title h2 {
     position: relative;
@@ -43,16 +34,6 @@
     margin-bottom: 25px;
   }
 
-  .content-box .text p{
-    position: relative;
-    font-family: 'Work Sans', sans-serif;
-    color: #808080;
-    font-weight: 400;
-    margin: 0px;
-    transition: all 500ms ease;
-
-  }
-  
   .content-box .lista {
     position: relative;
     margin-bottom: 35px;
@@ -62,8 +43,9 @@
     padding-left: 28px;
     position: relative;
     display: block;
+ 
     margin-bottom: 8px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: sans-serif;
     color: #808080;
   }
 
@@ -349,7 +331,7 @@
     margin: 0 auto;
   }
 
-  .container5 .content_block_5 .content-box {
+  .container5 .content_block_5 .content-box5 {
     position: relative;
     max-width: 370px;
     width: 100%;
@@ -359,7 +341,7 @@
     border-radius: 15px;  
   }
 
-  .content-box h3 {
+  .content-box5 h3 {
     display: block;
     color: #050505;
     font-size: 24px;
@@ -369,13 +351,13 @@
     text-transform: uppercase;
   }
 
-  .content-box .price {
+  .content-box5 .price {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
   }
 
-  .content-box .price h4 {
+  .content-box5 .price h4 {
     position: relative;
     display: inline-block;
     line-height: 28px;
@@ -386,7 +368,7 @@
     font-size: 25px;
   }
 
-  .content-box .price del {
+  .content-box5 .price del {
     position: relative;
     display: inline-block;
     font-size: 20px;
@@ -396,30 +378,23 @@
     font-weight: 500;
   }
 
-  .content-box p {
-    position: relative;
-    font-family: 'Work Sans', sans-serif;
-    color: #666;
-    font-weight: 400;
-    margin: 0px;
+  .content-box5 p {
     font-size: 15px;
     margin-bottom: 30px;
   }
 
-  .content-box .theme-btn {  
+  .content-box5 .theme-btn {  
     position: relative;
     background-color: #5fa5f0;
     border: 2px solid #ffffff;
-    display: inline-block;
     font-size: 16px;
     font-weight: 700;
     overflow: hidden;
     margin-top: 15px;
-    padding: 13px 30px;
     font-family: 'Work Sans', sans-serif;
   }
 
-  .content-box .theme-btn:hover {
+  .content-box5 .theme-btn:hover {
     background-color: transparent;
     color: #373a42;
     border: 2px solid #000000;
@@ -500,12 +475,6 @@
  }
 
  .text p{
-  position: relative;
-  font-family: 'Work Sans', sans-serif;
-  color: #808080;
-  font-weight: 400;
-  margin: 0px;
-  transition: all 500ms ease;
   vertical-align: inherit;
 
  }
@@ -588,6 +557,7 @@
   border-radius: 50%;
   width: 100%;
   text-align: center;
+
  }
 
  .link-box h3{
@@ -1166,11 +1136,7 @@
   }
 
   .lower-content11 p {
-    position: relative;
-    font-family: 'Work Sans', sans-serif;
-    color: #666;
-    font-weight: 400;
-    margin: 0px;
+    font-weight: 600;
     font-size: 15px;
     margin-bottom: 30px;
   }
