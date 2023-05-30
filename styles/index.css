@@ -2,7 +2,6 @@ body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/*estilos de header*/
 a{
     text-decoration: none;
     color: black;
@@ -64,7 +63,6 @@ h3{
     gap: 10px;
     align-items: center;
 }
-
 .search-one{
     height: 40px;
     width: 40px;
@@ -72,10 +70,7 @@ h3{
     background-color: #ffffff;
     justify-content: center;
     display: flex;
-    align-items: center;
-
-
-    
+    align-items: center;   
 }
 
 .search-one:hover {
@@ -104,8 +99,7 @@ h3{
     background-color: #c6def5;
     color: #000000;}
 
-
-  
+ 
 
 /*estilos de la primera seccion*/
 
