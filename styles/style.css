@@ -19,15 +19,7 @@
     margin-bottom:  26px;
   }
 
-  
-  .content-box .sec-title h2 {
-    position: relative;
-    display: block;
-    font-size: 50px;
-    line-height: 60px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
-  }
+ 
   
   .content-box .text {
     position: relative;
@@ -37,6 +29,7 @@
   .content-box .lista {
     position: relative;
     margin-bottom: 35px;
+    padding: 0px;
   }
   
   .content-box .lista li {
@@ -61,6 +54,7 @@
   
   .content-box .btn-box {
     text-align: center;
+    display: flex;
   }
   
   .content-box .btn-theme {
@@ -123,27 +117,10 @@
     text-align: center;
   }
   
-  .sec-title h2 {
-    position: relative;
-    display: block;
-    font-family: 'Playfair Display' , serif;
-    font-size: 50px;
-    line-height: 60px;
-    font-weight: 900;
-  }
-  
-  .sec-title p {
-    margin-bottom: 2px;
-    position: relative;
-    display: block;
-    font-size: 17px;
-    line-height: 28px;
-    color:#808080;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 2px;
-    font-family: 'Work Sans', sans-serif;
 
+  .sec-title p {
+    font-weight: 700;
+    margin-bottom: 5px;
   }
   
   .row{
@@ -448,31 +425,17 @@
   padding-left: 15px;
 
  }
- .section-title {
+ .sec-titleflex {
   margin-bottom: 22px;
   position: relative;
  }
 
- .section-title p{
-  position: relative;
-  display: block;
-  font-size: 17px;
-  line-height: 28px;
-  color: #808080;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-bottom: 2px;
-  font-family: 'Work sans',sans-serif;
+ .sec-titleflex p{
+  font-weight: 700;
+  margin-bottom: 5px;
+  
  }
 
- .section-title h2{
-  position: relative;
-  display: block;
-  font-size: 50px;
-  line-height: 60px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 900;
- }
 
  .text p{
   vertical-align: inherit;
@@ -1164,6 +1127,17 @@
     background: #c3f9ff;
   }
 
+.efecto-humo-negro{
+  background-image: url('https://travio.smartdemowp.com/wp-content/uploads/2021/02/shape-10.png');
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 95px;
+  background-repeat: repeat-x;
+  animation: slide 100s linear infinite;
+}
+
 
 
   /*estilos del footer*/
@@ -1187,7 +1161,7 @@
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background: #919191f4;
+    background-color: #171717;
   }
   .footer-container{
     position: static;
