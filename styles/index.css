@@ -126,13 +126,14 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 200px 160px;
+    padding: 200px 0px;
 }
 
 
 .container-1 {
     position: static;
     max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     
 }
