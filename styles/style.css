@@ -1391,6 +1391,240 @@
     color: #ebebeb;
   }
 
+  /*responsive para movil*/
+
+  @media (max-width: 412px){
+
+    p{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .menu-nav .checkbtn{
+        display: block;
+        box-sizing: border-box;
+        padding: 11px 0px;
+        
+    }
+
+    .logo h2{
+        font-size: 18px;
+        width: 120px;
+    }
+
+    .header-logo img{
+        height: 50px;
+        
+    }
+    .header-one{
+        padding: 15px 15px;
+    }
+    /*responsive de la primera seccion*/
+    .seccion-uno{
+      padding: 100px 10px;
+    }
+
+    .seccion-uno .container-1 {
+      width: 100%;
+    }
+
+    .seccion-uno .form-inner{
+      padding:19px 70px 38px 26px;
+    }
+
+    .booking-form .form-group{
+      width: 100%;
+      float: inherit;
+      margin-bottom: 20px;
+    }
+
+    .booking-form .message-btn{
+      position: relative;
+      box-sizing: border-box;
+      padding: 0px 58px;
+    
+    }
+    /*responsive de la segunda seccion*/
+    .container-caracteristicas .row-clearfix{
+        display: block;
+    }
+    .row-clearfix .caracteristica{
+        margin: 30px auto;
+        width: 270px;
+    }
+    /*responsive de la tercera seccion*/
+    .auto-container .row3{
+        display: block;
+    }
+    .row3 .imagen-column{
+        padding: 0px;
+        
+    }
+    .about-section .auto-container{
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+    }
+    .imagen-column .image-block-1 .image-box{
+        position: relative;
+        box-sizing: border-box;
+        padding: 0px 69px 255px 69px;
+        display: inline-block;
+        width: 100%;
+
+    }
+    .image-block-1 .image-box .video-content{
+        position: relative;
+        margin: 0px auto;
+        bottom: 0px;
+        right: 0px;
+        margin-top: 40px;
+
+    }
+    .imagen-1 img{
+        width: 230px;
+    }
+    .video-btn{
+        margin: 0px 50px;
+    }
+    .imagen-2{
+        margin: revert;
+
+    }
+    .row3 .content-column{
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 30px 20px;
+    }
+    .content_block_1 .content-box{
+        margin: 0px 20px;
+
+    }
+
+    /*responsive de la seccion 4*/
+    .auto-container .row{
+        display: block;
+    }
+    
+    .row .tour-block{
+        padding: 0px 15px;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /*responsive de la seccion 5*/
+     .inner-container5 .container5 .content_block_5 .content-box5{
+        width: auto;
+        padding: 20px;
+        
+    }
+
+    /*responsive de la seccion 6*/
+    .container-6 .inner-container6 {
+      padding: 60px 0px;
+    }
+    .container6 .row-container6{
+      display: block;
+    }
+    .row-container6 .title-box{
+      max-width: 100%;
+      box-sizing: border-box;
+      padding: 0px 20px;
+      margin-bottom: 30px;
+
+    }
+
+    .row-container6 .box-destination{
+      max-width: 100%;
+      box-sizing: border-box;
+      padding: 0px 20px;
+
+
+    }
+    .row-container6 .link-column{
+      max-width: 100%;
+      box-sizing: border-box;
+      padding: 0px 20px;
+
+
+    }
+
+    /*responsive de la seccion 8*/
+    .auto-container8 .inner-container8{
+      box-shadow: 6px 15px 3px 2.5px;
+      background-color: #fefefe;
+    }
+
+    .inner-container8 .row8{
+      display: block;
+    }
+    .row8 .counter-block{
+      max-width: 100%;
+      padding: 0px;
+    }
+
+    .counter-block-one .inner-box8{
+      padding: 20px 0px 24px 0px;
+      margin-bottom: 30px;
+
+    }
+    /*responsive de la seccion once*/
+    .container-11 .container-section11{
+      padding: 60px 0px 90px 0px;
+
+    }
+    .auto-container11 .sec-title{
+      margin-bottom: 20px;
+    }
+    .auto-container11 .row11{
+      display: block;
+
+    }
+    .row11 .blocks{
+      max-width: 100%;
+      padding: 20px 20px;
+      box-sizing: border-box;
+
+
+    }
+
+
+
+    /*responsive del footer*/
+    footer .footer-content{
+        padding: 20px 0px 80px 0px;
+
+    }
+    .footer-sections .footer-elementor .footer-rows{
+        display: block;
+    }
+    .footer-rows .rows-column{
+        width: 100%;
+        padding: 0px;
+    }
+    .row-container .footer-widget{
+        margin: 0px;
+    }
+
+    .footer-widget .footer-logo{
+        margin: 20px 110px;
+    }
+    .footer-widget .margen-widget{
+        margin: 0px;
+    }
+
+    .footer-widget .social-links{
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+
+
+}
+
 
 
 
