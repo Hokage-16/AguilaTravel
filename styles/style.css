@@ -1500,6 +1500,7 @@
     /*responsive de la tercera seccion*/
     .auto-container .row3{
         display: block;
+        margin: 0px;
     }
     .row3 .imagen-column{
         padding: 0px;
@@ -1509,11 +1510,13 @@
         position: relative;
         margin: 0px;
         padding: 0px;
+        max-width: 100%;
+        width: 100%;
     }
     .imagen-column .image-block-1 .image-box{
         position: relative;
         box-sizing: border-box;
-        padding: 0px 69px 255px 69px;
+        padding: 0px 69px 0px 69px;
         display: inline-block;
         width: 100%;
 
@@ -1533,8 +1536,13 @@
         margin: 0px 50px;
     }
     .imagen-2{
-        margin: revert;
-
+        position: relative;
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .imagen-2 img{
+      width: 100%;
+      position: relative;
     }
     .row3 .content-column{
         width: 100%;
