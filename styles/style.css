@@ -971,9 +971,6 @@
     background: transparent;
   }
 
-  .new-block-one{
-
-  }
 
   .inner-box11{
     position: relative;
@@ -1017,7 +1014,7 @@
     background: #d1e7ec;
     border-radius: 25px;
     padding: 5px 20px 3px 55px;
-    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.5);stroke-width: ;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.5);
   }
 
   .post-date i{
