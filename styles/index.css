@@ -464,7 +464,7 @@ li{
   }
   
   /* Estilos para la imagen y contenido en columnas */
-  .row {
+  .row3 {
     display: flex;
     margin-right: -15px;
     margin-left: -15px;
