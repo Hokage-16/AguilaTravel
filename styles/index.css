@@ -184,6 +184,18 @@ h2{
     .header-one{
         padding: 15px 15px;
     }
+    .seccion-uno{
+        width: 100%;
+
+    }
+    .booking-form{
+        display:grid;
+        margin-bottom: 30px
+
+    }
+    .form-group{
+        margin-bottom:50px ;
+    }
 
  }
 
