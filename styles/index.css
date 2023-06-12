@@ -162,6 +162,41 @@ h2{
  }
 
 
+ @media (max-width: 499px){
+    .menu-nav .checkbtn{
+        display: block;
+        box-sizing: border-box;
+        padding: 11px 0px;
+        
+    }
+
+    .logo h2{
+        font-size: 18px;
+        width: 120px;
+    }
+
+    .header-logo img{
+        height: 50px;
+        
+    }
+    .header-one{
+        padding: 15px 15px;
+    }
+    .seccion-uno{
+        width: 100%;
+
+    }
+    .booking-form{
+        display:grid;
+        margin-bottom: 30px
+
+    }
+    .form-group{
+        margin-bottom:50px ;
+    }
+
+ }
+
 
 
 
