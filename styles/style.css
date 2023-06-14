@@ -1256,7 +1256,7 @@
     position: relative;
     display: inline-block;
     font-size: 15px;
-    color: #3996ec;
+    color: #0478e6;
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -1604,6 +1604,12 @@
 
 
     }
+
+    .inner-box .text {
+      box-sizing: border-box;
+      padding-left: 45px;
+      padding-bottom: 40px;
+    }
     /*responsive de la seccion 7*/
     .address-box{
       display: none;
@@ -1699,7 +1705,72 @@
 
 }
 
+/*responsive para tablen o computadora pequeña*/
 
+@media (max-width: 1200px ){
+
+
+  header .header-one{
+    padding: 10px 8px;
+
+  }
+
+  .navigation{
+    display: none;
+  }
+
+  .menu-nav{
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-nav .checkbtn{
+    display: block;
+    box-sizing: border-box;
+    padding: 8px 0px;
+  }
+
+
+  /*responsive de la primera seccion*/
+
+  .seccion-uno{
+    padding: 140px 15px 150px 15px;
+  }
+
+  .container-1{
+    width: 100%;
+  }
+
+  .form-inner{
+    padding: 15px 15px 170px 15px;
+  }
+
+  .form-group{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 7.5px;
+  }
+  .form-group input{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .message-btn{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 7.5px;
+
+  }
+  .theme-btn{
+    width: 100%;
+  }
+
+
+}
 
 
 
