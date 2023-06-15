@@ -582,17 +582,4 @@ li{
     text-decoration: none;
   }
 
-  /*responsive para la seccion 04*/
-
-  .row{
-    display: inline-block ;
-    margin: 0px;
-  }
-
-  .row .tour-block{
-    float: left;
-    width: 50%;
-    max-width: 50%;
-    box-sizing: border-box;
-    padding: 15px;
-  }
+  
