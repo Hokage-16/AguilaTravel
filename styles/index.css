@@ -371,6 +371,7 @@ li{
 
 .row-clearfix {
     display: flex;
+    
 
 
 }
@@ -379,6 +380,9 @@ li{
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
 
 }
 
@@ -398,6 +402,10 @@ li{
     overflow: hidden;
     margin: 0;
     box-sizing: border-box;
+}
+
+.caja-imagen a img{
+    width: 100%;
 }
 .contenido-bajo{  
     position: relative;
@@ -524,6 +532,10 @@ li{
     border-radius: 10px;
     box-shadow: 0px 20px 50px 0px;
   }
+
+  .imagen-1 img{
+    width: 100%;
+  }
   
   .imagen-2{
     position: absolute;
@@ -534,6 +546,10 @@ li{
     border-radius: 10px;
     box-shadow: 0px 20px 50px 0px;
 
+  }
+
+  .imagen-2 img{
+    width: 100%;
   }
 
   .image-box .video-content {
@@ -564,4 +580,19 @@ li{
     color: #007bff;
     box-shadow: none;
     text-decoration: none;
+  }
+
+  /*responsive para la seccion 04*/
+
+  .row{
+    display: inline-block ;
+    margin: 0px;
+  }
+
+  .row .tour-block{
+    float: left;
+    width: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 15px;
   }

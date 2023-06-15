@@ -752,7 +752,7 @@
   }
 
   .owl-stage{
-    width: 1200px;
+    width: 100%;
     position: relative;
     text-align: center;
     display: flex;
@@ -1730,10 +1730,9 @@
     padding: 8px 0px;
   }
 
+   /*responsive de la primera seccion*/
 
-  /*responsive de la primera seccion*/
-
-  .seccion-uno{
+   .seccion-uno{
     padding: 140px 15px 150px 15px;
   }
 
@@ -1767,6 +1766,59 @@
   }
   .theme-btn{
     width: 100%;
+  }
+
+}
+
+/*responsive para el cuerpo*/
+
+@media (max-width: 990px){
+
+ 
+
+
+  /*responsive de la seccion 2*/
+  .container-2{
+    padding: 144px 0px 950px 0px;
+  }
+
+  .container-caracteristicas{
+    max-width: 100%;
+  }
+
+  .row-clearfix{
+    display: block;
+
+  }
+
+  .caracteristica{
+    padding-right: 0px;
+    padding-left: 0px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+
+  }
+
+  .bloque-uno .caja-interior{
+    max-height: 100%;
+  }
+
+
+  /*responsive para la seccion 04*/
+
+  .row{
+    display: inline-block ;
+    margin: 0px;
+  }
+
+  .row .tour-block{
+    float: left;
+    width: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 15px;
   }
 
 
